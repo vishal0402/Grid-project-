@@ -1,0 +1,218 @@
+*{
+    margin:0;
+    padding: 0;
+    
+  }
+  
+  
+  body {
+    background-color: #f2f6ff;
+  }
+  
+  /* header styling */
+  
+  header {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: 100%;
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 2px gray;
+   position: sticky;
+  }
+  .first-item {
+    flex: 2;
+    margin-left: 85px;
+  }
+  .first-item h1 {
+    text-transform: uppercase;
+    color: #0084ff;
+    font-size: 30px;
+    margin-top: 13px;
+    font-weight: 900;
+    letter-spacing: -2px;
+    cursor: pointer;
+    font-family: Raleway,sans-serif;
+  }
+  .first-item p {
+    font-size: 20px;
+    margin-top: -8px;
+  }
+  .second-item {
+    flex: 2;
+  }
+  .second-item p {
+    margin-top: 30px;
+    font-size: 17px;
+    margin-left: -114px;
+    word-spacing: 3px;
+    letter-spacing: 0.5px;
+
+  }
+  .second-item i{
+    /* margin-top: 30px; */
+    font-size:12px;
+    display: inline-block;
+    margin-left: 5px;
+  }
+  .dropdown {
+    margin-left: 8px;
+  }
+  .third-item {
+    flex: 3;
+    color: rgba(0,0,0,.6);
+    font-size: 17px;
+    margin-top: 20px;
+    word-spacing: 2px;
+    margin-left: 60px;
+  }
+  
+  .fourth-item {
+    flex: 2;
+    margin-top: 20px;
+    margin-left: -119px;
+  }
+   header button {
+    border: 1px solid#0084ff;
+    background: linear-gradient(269deg,#0048ff,#0096ff);
+    color: white;
+    font-size: 12px;
+    width: 175px;
+    height: 42px;
+    border-radius: 47px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+ 
+  
+  /* content styling */
+  
+  .content {
+    width: 70%;
+    margin: 30px auto;
+  }
+  .content i{
+    font-size: 18px;
+    color: rgb(82, 155, 249);
+    margin-top: 0px;
+  }
+  .content h1 {
+    font-size: 33px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    margin-bottom: 25px;
+    font-weight: 900;
+  }
+  .content p {
+    font-size: 14px;
+    margin-bottom: 14px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+ 
+  .content button {
+    height: 30px;
+    background-color: #f2f6ff;
+    color: #0084ff;
+    font-size: 13x;
+    border: 1px solid #0084ff;
+    border-radius: 15px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 2px;
+  }
+  .content button:hover {
+    background-color: #0084ff;
+    color: #f2f6ff;
+  }
+  #all {
+    width: 42px;
+  }
+  #artificial {
+    width: 152px;
+  }
+  #cloud {
+    width: 129px;
+  }
+  #devops {
+    width: 67px;
+  }
+  #programming {
+    width: 175px;
+  }
+  #mobile {
+    width: 224px;
+  }
+  #technology {
+    width: 156px;
+  }
+  #company {
+    width: 197px;
+  }
+  #others {
+    width: 61px;
+    margin-top: 13px;
+  }
+  
+  /* cart styling */
+  
+  .cart-one {
+    width: 70%;
+    height: auto;
+    /* background-color: red; */
+    display: flex;
+    margin: 20px auto;
+    
+  }
+  .cart-one article {
+    /* flex: 40%; */
+    margin: 8px;
+    cursor: pointer;
+    height: 410px;
+    border:  1px solid #70b6f7;
+    border-radius: 5px;
+  
+    overflow: hidden;
+  }
+  article img {
+    width: 100%;
+    height: 180px;
+    margin-bottom: 7px;
+    /* border-radius: 6px; */
+    
+  }
+  article h2 {
+    font-size: 21px;
+    width: 85%;
+  
+    margin: 2px auto;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  article h6 {
+    font-size: 14px;
+    width: 85%;
+    margin: 10px auto;
+    font-family: "Courier New", Courier, monospace;
+    word-spacing: -4px;
+  }
+  article h6 a {
+    color: #0084ff;
+    cursor: pointer;
+    font-family: "Times New Roman", Times, serif;
+    word-spacing: 1px;
+  }
+  article h6 a:hover {
+    border-bottom: 1px solid #0084ff;
+  }
+  
+  article p {
+    font-size: 18px;
+    width: 85%;
+    margin: 19px auto;
+    color: grey;
+  }
+  
+  
+  
+  
+  
